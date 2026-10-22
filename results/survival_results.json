@@ -1,0 +1,502 @@
+{
+  "n_all": 566,
+  "n_analysed": 505,
+  "n_deaths": 182,
+  "stage_by_group_chi2_p": 0.058303949165203144,
+  "age_by_group_kruskal_p": 0.0005958035333975544,
+  "median_followup_months": 28.66817898,
+  "fine_groups": [
+    {
+      "group": "Wildtype",
+      "n": 243,
+      "deaths": 82,
+      "median_OS_months": 53.65420653,
+      "median_CI_low": 46.71729625,
+      "median_CI_high": 88.14149982,
+      "OS_3yr_pct": 68.3,
+      "OS_3yr_CI_low": 60.4,
+      "OS_3yr_CI_high": 74.9
+    },
+    {
+      "group": "Missense",
+      "n": 158,
+      "deaths": 54,
+      "median_OS_months": 44.61320972,
+      "median_CI_low": 36.65713253,
+      "median_CI_high": 86.03741329,
+      "OS_3yr_pct": 62.1,
+      "OS_3yr_CI_low": 51.2,
+      "OS_3yr_CI_high": 71.2
+    },
+    {
+      "group": "Nonsense",
+      "n": 46,
+      "deaths": 15,
+      "median_OS_months": 56.71170727,
+      "median_CI_low": 31.19965809,
+      "median_CI_high": 110.4974192,
+      "OS_3yr_pct": 60.8,
+      "OS_3yr_CI_low": 37.4,
+      "OS_3yr_CI_high": 77.8
+    },
+    {
+      "group": "Frameshift",
+      "n": 21,
+      "deaths": 12,
+      "median_OS_months": 24.03261334,
+      "median_CI_low": 6.904033928,
+      "median_CI_high": Infinity,
+      "OS_3yr_pct": 46.6,
+      "OS_3yr_CI_low": 24.4,
+      "OS_3yr_CI_high": 66.1
+    },
+    {
+      "group": "Splice",
+      "n": 17,
+      "deaths": 8,
+      "median_OS_months": 42.34474143,
+      "median_CI_low": 20.18608015,
+      "median_CI_high": 47.80221587,
+      "OS_3yr_pct": 51.1,
+      "OS_3yr_CI_low": 19.4,
+      "OS_3yr_CI_high": 76.0
+    },
+    {
+      "group": "Other/mixed",
+      "n": 20,
+      "deaths": 11,
+      "median_OS_months": 24.22987145,
+      "median_CI_low": 18.44363349,
+      "median_CI_high": 41.58858533,
+      "OS_3yr_pct": 24.0,
+      "OS_3yr_CI_low": 4.1,
+      "OS_3yr_CI_high": 52.8
+    }
+  ],
+  "3A": {
+    "Wildtype": {
+      "group": "Wildtype",
+      "n": 243,
+      "deaths": 82,
+      "median_OS_months": 53.65420653,
+      "median_CI_low": 46.71729625,
+      "median_CI_high": 88.14149982,
+      "OS_3yr_pct": 68.3,
+      "OS_3yr_CI_low": 60.4,
+      "OS_3yr_CI_high": 74.9
+    },
+    "Mutant": {
+      "group": "Mutant",
+      "n": 262,
+      "deaths": 100,
+      "median_OS_months": 42.34474143,
+      "median_CI_low": 34.38866423,
+      "median_CI_high": 50.33369497,
+      "OS_3yr_pct": 57.7,
+      "OS_3yr_CI_low": 49.4,
+      "OS_3yr_CI_high": 65.1
+    },
+    "logrank_chi2": 4.565738845308367,
+    "logrank_p": 0.0326176018663616
+  },
+  "3B": {
+    "groups": {
+      "Wildtype": {
+        "group": "Wildtype",
+        "n": 243,
+        "deaths": 82,
+        "median_OS_months": 53.65420653,
+        "median_CI_low": 46.71729625,
+        "median_CI_high": 88.14149982,
+        "OS_3yr_pct": 68.3,
+        "OS_3yr_CI_low": 60.4,
+        "OS_3yr_CI_high": 74.9
+      },
+      "Missense": {
+        "group": "Missense",
+        "n": 158,
+        "deaths": 54,
+        "median_OS_months": 44.61320972,
+        "median_CI_low": 36.65713253,
+        "median_CI_high": 86.03741329,
+        "OS_3yr_pct": 62.1,
+        "OS_3yr_CI_low": 51.2,
+        "OS_3yr_CI_high": 71.2
+      },
+      "Truncating/Splice": {
+        "group": "Truncating/Splice",
+        "n": 84,
+        "deaths": 35,
+        "median_OS_months": 42.50912319,
+        "median_CI_low": 31.19965809,
+        "median_CI_high": 71.47318934,
+        "OS_3yr_pct": 55.9,
+        "OS_3yr_CI_low": 41.4,
+        "OS_3yr_CI_high": 68.2
+      }
+    },
+    "logrank_chi2": 3.5477612989174476,
+    "logrank_p": 0.16967326710680625,
+    "pairwise_p": {
+      "Wildtype vs Missense": 0.2653283861025775,
+      "Wildtype vs Truncating/Splice": 0.06900693651809856,
+      "Missense vs Truncating/Splice": 0.42826763484958064
+    }
+  },
+  "stage_logrank_p": 4.5246139445908677e-13,
+  "stage_km": {
+    "I": {
+      "group": "I",
+      "n": 271,
+      "deaths": 65,
+      "median_OS_months": 86.13604235,
+      "median_CI_low": 53.32544301,
+      "median_CI_high": 163.0995825,
+      "OS_3yr_pct": 77.8,
+      "OS_3yr_CI_low": 70.4,
+      "OS_3yr_CI_high": 83.5
+    },
+    "II": {
+      "group": "II",
+      "n": 120,
+      "deaths": 53,
+      "median_OS_months": 39.74750962,
+      "median_CI_low": 30.54213105,
+      "median_CI_high": 49.84054969,
+      "OS_3yr_pct": 54.2,
+      "OS_3yr_CI_low": 42.4,
+      "OS_3yr_CI_high": 64.5
+    },
+    "III": {
+      "group": "III",
+      "n": 80,
+      "deaths": 46,
+      "median_OS_months": 26.5312161,
+      "median_CI_low": 15.38613276,
+      "median_CI_high": 36.65713253,
+      "OS_3yr_pct": 37.4,
+      "OS_3yr_CI_low": 24.5,
+      "OS_3yr_CI_high": 50.2
+    },
+    "IV": {
+      "group": "IV",
+      "n": 26,
+      "deaths": 16,
+      "median_OS_months": 27.15586679,
+      "median_CI_low": 15.38613276,
+      "median_CI_high": 42.50912319,
+      "OS_3yr_pct": 32.3,
+      "OS_3yr_CI_low": 11.6,
+      "OS_3yr_CI_high": 55.3
+    }
+  },
+  "cox": [
+    {
+      "model": "Binary: unadjusted",
+      "n": 497,
+      "events": 180,
+      "term": "Mutant_vs_WT",
+      "HR": 1.367715333387748,
+      "CI_low": 1.018397251839986,
+      "CI_high": 1.8368522006556642,
+      "p": 0.03742293570023209
+    },
+    {
+      "model": "Binary: + stage",
+      "n": 497,
+      "events": 180,
+      "term": "Mutant_vs_WT",
+      "HR": 1.205342196948937,
+      "CI_low": 0.8959549876657895,
+      "CI_high": 1.6215656274549748,
+      "p": 0.21719029029323425
+    },
+    {
+      "model": "Binary: + stage",
+      "n": 497,
+      "events": 180,
+      "term": "Stage_II_vs_I",
+      "HR": 2.3479220204697517,
+      "CI_low": 1.6285856530960712,
+      "CI_high": 3.384984881652744,
+      "p": 4.807884423451896e-06
+    },
+    {
+      "model": "Binary: + stage",
+      "n": 497,
+      "events": 180,
+      "term": "Stage_III_vs_I",
+      "HR": 3.49913705190549,
+      "CI_low": 2.385338854000006,
+      "CI_high": 5.133006611402731,
+      "p": 1.4870680376622675e-10
+    },
+    {
+      "model": "Binary: + stage",
+      "n": 497,
+      "events": 180,
+      "term": "Stage_IV_vs_I",
+      "HR": 3.7530077921218,
+      "CI_low": 2.160796424083224,
+      "CI_high": 6.5184611242139185,
+      "p": 2.662614613764415e-06
+    },
+    {
+      "model": "Binary: + stage + age + sex",
+      "n": 487,
+      "events": 177,
+      "term": "Mutant_vs_WT",
+      "HR": 1.2481815704128087,
+      "CI_low": 0.918902796042525,
+      "CI_high": 1.695453794925754,
+      "p": 0.15598160637924774
+    },
+    {
+      "model": "Binary: + stage + age + sex",
+      "n": 487,
+      "events": 177,
+      "term": "Stage_II_vs_I",
+      "HR": 2.218369481765597,
+      "CI_low": 1.5326639981992067,
+      "CI_high": 3.210855845384931,
+      "p": 2.407032252015454e-05
+    },
+    {
+      "model": "Binary: + stage + age + sex",
+      "n": 487,
+      "events": 177,
+      "term": "Stage_III_vs_I",
+      "HR": 3.2311349029051817,
+      "CI_low": 2.1986485900617194,
+      "CI_high": 4.748477227313076,
+      "p": 2.3605634151980874e-09
+    },
+    {
+      "model": "Binary: + stage + age + sex",
+      "n": 487,
+      "events": 177,
+      "term": "Stage_IV_vs_I",
+      "HR": 3.6630333586330153,
+      "CI_low": 2.0903378164904782,
+      "CI_high": 6.418968876995097,
+      "p": 5.730047058395936e-06
+    },
+    {
+      "model": "Binary: + stage + age + sex",
+      "n": 487,
+      "events": 177,
+      "term": "Age_per_10yr",
+      "HR": 1.126767759232784,
+      "CI_low": 0.9640166487010083,
+      "CI_high": 1.316995494794862,
+      "p": 0.13373387158511074
+    },
+    {
+      "model": "Binary: + stage + age + sex",
+      "n": 487,
+      "events": 177,
+      "term": "Male_vs_Female",
+      "HR": 0.9983328718025983,
+      "CI_low": 0.7382826688864806,
+      "CI_high": 1.3499822831068955,
+      "p": 0.9913533225480742
+    },
+    {
+      "model": "3-group: unadjusted",
+      "n": 477,
+      "events": 169,
+      "term": "Missense_vs_WT",
+      "HR": 1.1985429316931049,
+      "CI_low": 0.8481576261465142,
+      "CI_high": 1.6936771123995704,
+      "p": 0.3046512619965166
+    },
+    {
+      "model": "3-group: unadjusted",
+      "n": 477,
+      "events": 169,
+      "term": "TruncSplice_vs_WT",
+      "HR": 1.4527250452899176,
+      "CI_low": 0.9726797847549304,
+      "CI_high": 2.169686355457996,
+      "p": 0.06805824449821911
+    },
+    {
+      "model": "3-group: + stage",
+      "n": 477,
+      "events": 169,
+      "term": "Missense_vs_WT",
+      "HR": 0.9899898221872624,
+      "CI_low": 0.6973272113201127,
+      "CI_high": 1.4054805722825225,
+      "p": 0.9551285529008895
+    },
+    {
+      "model": "3-group: + stage",
+      "n": 477,
+      "events": 169,
+      "term": "TruncSplice_vs_WT",
+      "HR": 1.5223826423539795,
+      "CI_low": 1.0140515809874777,
+      "CI_high": 2.285533549963771,
+      "p": 0.042634576605729134
+    },
+    {
+      "model": "3-group: + stage",
+      "n": 477,
+      "events": 169,
+      "term": "Stage_II_vs_I",
+      "HR": 2.4865428085148893,
+      "CI_low": 1.6995505384421057,
+      "CI_high": 3.637958977227396,
+      "p": 2.709863816985027e-06
+    },
+    {
+      "model": "3-group: + stage",
+      "n": 477,
+      "events": 169,
+      "term": "Stage_III_vs_I",
+      "HR": 3.8636397627952306,
+      "CI_low": 2.568219409399935,
+      "CI_high": 5.812475430259383,
+      "p": 8.77961262421873e-11
+    },
+    {
+      "model": "3-group: + stage",
+      "n": 477,
+      "events": 169,
+      "term": "Stage_IV_vs_I",
+      "HR": 3.7729661838845,
+      "CI_low": 2.1598158225517845,
+      "CI_high": 6.5909665426551225,
+      "p": 3.079613925518339e-06
+    },
+    {
+      "model": "3-group: + stage + age + sex",
+      "n": 467,
+      "events": 166,
+      "term": "Missense_vs_WT",
+      "HR": 1.0447867278838303,
+      "CI_low": 0.7266556239529323,
+      "CI_high": 1.5021961858963138,
+      "p": 0.8130560845947673
+    },
+    {
+      "model": "3-group: + stage + age + sex",
+      "n": 467,
+      "events": 166,
+      "term": "TruncSplice_vs_WT",
+      "HR": 1.5229509104754912,
+      "CI_low": 1.0103155351229618,
+      "CI_high": 2.295698121118017,
+      "p": 0.044539522017409953
+    },
+    {
+      "model": "3-group: + stage + age + sex",
+      "n": 467,
+      "events": 166,
+      "term": "Stage_II_vs_I",
+      "HR": 2.3129212185308847,
+      "CI_low": 1.5752681320105373,
+      "CI_high": 3.3959961827594487,
+      "p": 1.8784740468158508e-05
+    },
+    {
+      "model": "3-group: + stage + age + sex",
+      "n": 467,
+      "events": 166,
+      "term": "Stage_III_vs_I",
+      "HR": 3.5271662779617765,
+      "CI_low": 2.340747040900886,
+      "CI_high": 5.3149279845303505,
+      "p": 1.6878918321825877e-09
+    },
+    {
+      "model": "3-group: + stage + age + sex",
+      "n": 467,
+      "events": 166,
+      "term": "Stage_IV_vs_I",
+      "HR": 3.675353912405982,
+      "CI_low": 2.0876440260537894,
+      "CI_high": 6.470560216615164,
+      "p": 6.468179847848646e-06
+    },
+    {
+      "model": "3-group: + stage + age + sex",
+      "n": 467,
+      "events": 166,
+      "term": "Age_per_10yr",
+      "HR": 1.1371343165614358,
+      "CI_low": 0.9676677176035645,
+      "CI_high": 1.3362794173850825,
+      "p": 0.11857235443310733
+    },
+    {
+      "model": "3-group: + stage + age + sex",
+      "n": 467,
+      "events": 166,
+      "term": "Male_vs_Female",
+      "HR": 1.0210946125528253,
+      "CI_low": 0.747867464888243,
+      "CI_high": 1.3941430223070472,
+      "p": 0.8954688846151028
+    }
+  ],
+  "ph_test": {
+    "binary_stage": {
+      "Mutant_vs_WT": 0.4421642765897805,
+      "Stage_III_vs_I": 0.01131064622570865,
+      "Stage_II_vs_I": 0.0996897389513582,
+      "Stage_IV_vs_I": 0.8995136154902973
+    },
+    "3group_stage": {
+      "Missense_vs_WT": 0.40842526266514945,
+      "Stage_III_vs_I": 0.03272295900352873,
+      "Stage_II_vs_I": 0.13171580225671065,
+      "Stage_IV_vs_I": 0.9442592722723278,
+      "TruncSplice_vs_WT": 0.35138930862240125
+    }
+  },
+  "sensitivity": [
+    {
+      "analysis": "Main analysis (Silent excluded; splice-region kept separate)",
+      "n_wt/mis/trunc": "243/158/84",
+      "logrank_p_WT_vs_mut": 0.0326176018663616,
+      "logrank_p_3group": 0.16967326710680625,
+      "HR_missense_adj": 0.9899898221872624,
+      "p_missense_adj": 0.9551285529008895,
+      "HR_trunc_adj": 1.5223826423539795,
+      "p_trunc_adj": 0.042634576605729134
+    },
+    {
+      "analysis": "S1: original Phase 1 rules (Silent counted as 'Other')",
+      "n_wt/mis/trunc": "243/157/84",
+      "logrank_p_WT_vs_mut": 0.0326176018663616,
+      "logrank_p_3group": 0.17734234475008506,
+      "HR_missense_adj": 0.9748516451615694,
+      "p_missense_adj": 0.887364361165393,
+      "HR_trunc_adj": 1.5208366273228104,
+      "p_trunc_adj": 0.04315440495139583
+    },
+    {
+      "analysis": "S2: exon-boundary splice-region variants counted as Splice",
+      "n_wt/mis/trunc": "243/158/92",
+      "logrank_p_WT_vs_mut": 0.0326176018663616,
+      "logrank_p_3group": 0.05000870496740081,
+      "HR_missense_adj": 0.9895738838629003,
+      "p_missense_adj": 0.9532162675536219,
+      "HR_trunc_adj": 1.6492171566609521,
+      "p_trunc_adj": 0.010487637836247817
+    },
+    {
+      "analysis": "S3: main classification, Cox stratified by stage",
+      "n_wt/mis/trunc": "243/158/84",
+      "logrank_p_WT_vs_mut": NaN,
+      "logrank_p_3group": NaN,
+      "HR_missense_adj": 1.0348301220369533,
+      "p_missense_adj": 0.84994825782746,
+      "HR_trunc_adj": 1.531250385153897,
+      "p_trunc_adj": 0.04108067021129738
+    }
+  ]
+}

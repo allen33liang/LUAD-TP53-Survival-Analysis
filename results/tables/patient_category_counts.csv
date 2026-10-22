@@ -1,0 +1,7 @@
+category,n_patients,percent_of_patients
+Wildtype,271,47.9
+Missense,178,31.4
+Nonsense,53,9.4
+Frameshift,23,4.1
+Splice,19,3.4
+Other/mixed,22,3.9

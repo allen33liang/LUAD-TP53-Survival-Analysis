@@ -1,0 +1,6 @@
+group,n,age_median,age_IQR,male_pct,stage_I,stage_II,stage_III,stage_IV,stage_unknown,stage_III_IV_pct,deaths
+All patients,505,66.0,59-73,46.7,271,120,80,26,8,21.3,182
+Wildtype,243,68.0,61-74,45.7,135,55,37,11,5,20.2,82
+Missense,158,64.0,58-72,46.8,77,45,30,6,0,22.8,54
+Truncating/Splice,84,62.0,57-70,50.0,48,16,8,9,3,21.0,35
+Other/mixed,20,70.0,58-72,45.0,11,4,5,0,0,25.0,11

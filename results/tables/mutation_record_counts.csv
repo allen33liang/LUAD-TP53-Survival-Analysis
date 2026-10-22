@@ -1,0 +1,9 @@
+Variant_Classification,n_records,percent_of_records
+Missense_Mutation,195,61.3
+Nonsense_Mutation,55,17.3
+Frame_Shift_Del,24,7.5
+Splice_Site,23,7.2
+Splice_Region,9,2.8
+In_Frame_Del,5,1.6
+Silent,4,1.3
+Frame_Shift_Ins,3,0.9
